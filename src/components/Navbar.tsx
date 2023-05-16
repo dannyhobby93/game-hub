@@ -4,7 +4,7 @@ import logo from "../assets/logo.webp";
 import ColorModeSwitch from "./ColorModeSwitch";
 import SearchInput from "./SearchInput";
 
-const NavBar = () => {
+const Navbar = () => {
 	return (
 		<HStack justifyContent='space-between' padding='10px'>
 			<Link to='/'>
@@ -16,4 +16,4 @@ const NavBar = () => {
 	);
 };
 
-export default NavBar;
+export default Navbar;
